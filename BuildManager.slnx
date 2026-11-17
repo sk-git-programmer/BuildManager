@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/aspire/">
+    <Project Path="aspire/BuildManager.AppHost/BuildManager.AppHost.csproj" />
+    <Project Path="aspire/BuildManager.ServiceDefaults/BuildManager.ServiceDefaults.csproj" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/BuildManager.Api/BuildManager.Api.csproj" />
     <Project Path="src/BuildManager.Application/BuildManager.Application.csproj" />

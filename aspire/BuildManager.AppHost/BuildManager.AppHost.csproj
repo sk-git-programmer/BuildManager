@@ -1,0 +1,18 @@
+﻿<Project Sdk="Aspire.AppHost.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <UserSecretsId>ZACHOWAJ-SWOJĄ-ISTNIEJĄCĄ-WARTOŚĆ</UserSecretsId>
+    <!--
+      ASPIRE010: DCP and the dashboard are resolved from NuGet packages (version pinned in global.json),
+      not from a machine-wide Aspire CLI install. Reproducible locally and in CI. Revisit in Phase 10 (deployment).
+    -->
+    <NoWarn>$(NoWarn);ASPIRE010</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\BuildManager.Api\BuildManager.Api.csproj" />
+    <ProjectReference Include="..\..\src\BuildManager.Web\BuildManager.Web.csproj" />
+  </ItemGroup>
+
+</Project>

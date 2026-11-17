@@ -4,6 +4,7 @@
     <ProjectReference Include="..\BuildManager.Application\BuildManager.Application.csproj" />
     <ProjectReference Include="..\BuildManager.Infrastructure\BuildManager.Infrastructure.csproj" />
     <ProjectReference Include="..\BuildManager.Contracts\BuildManager.Contracts.csproj" />
+    <ProjectReference Include="..\..\aspire\BuildManager.ServiceDefaults\BuildManager.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

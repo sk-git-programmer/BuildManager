@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <PropertyGroup Label="Code quality">
+    <!-- Compiler, analyzer and NuGet warnings. -->
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <!-- Warnings raised by MSBuild tasks and SDK targets (e.g. Aspire diagnostics) are not covered by the above. -->
+    <MSBuildTreatWarningsAsErrors>true</MSBuildTreatWarningsAsErrors>
     <AnalysisLevel>latest-recommended</AnalysisLevel>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <!-- Required for IDE0005 (unnecessary usings) to be reported during build, not only in the IDE. -->

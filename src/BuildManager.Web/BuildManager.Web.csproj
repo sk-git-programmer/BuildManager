@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BuildManager.Web.Client\BuildManager.Web.Client.csproj" />
+    <ProjectReference Include="..\..\aspire\BuildManager.ServiceDefaults\BuildManager.ServiceDefaults.csproj" />
   </ItemGroup>
 
   <ItemGroup>
