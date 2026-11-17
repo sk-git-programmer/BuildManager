@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildManager.Application\BuildManager.Application.csproj" />
+    <ProjectReference Include="..\BuildManager.Infrastructure\BuildManager.Infrastructure.csproj" />
+    <ProjectReference Include="..\BuildManager.Contracts\BuildManager.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

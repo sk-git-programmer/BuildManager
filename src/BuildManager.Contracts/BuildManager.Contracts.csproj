@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Contracts are plain DTOs shared by Api and Web.Client (must stay WebAssembly-compatible). -->
+
+</Project>

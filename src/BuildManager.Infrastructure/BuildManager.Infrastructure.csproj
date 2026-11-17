@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildManager.Application\BuildManager.Application.csproj" />
+  </ItemGroup>
+
+</Project>
