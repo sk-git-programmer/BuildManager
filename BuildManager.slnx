@@ -12,4 +12,7 @@
     <Project Path="src/BuildManager.Web.Client/BuildManager.Web.Client.csproj" />
     <Project Path="src/BuildManager.Web/BuildManager.Web.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BuildManager.Architecture.Tests/BuildManager.Architecture.Tests.csproj" />
+  </Folder>
 </Solution>
