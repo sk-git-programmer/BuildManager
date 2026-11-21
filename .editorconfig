@@ -116,6 +116,12 @@ dotnet_naming_rule.private_fields_underscore_camel_case.symbols = private_fields
 dotnet_naming_rule.private_fields_underscore_camel_case.style = underscore_camel_case
 dotnet_naming_rule.private_fields_underscore_camel_case.severity = warning
 
+#### Analyzer adjustments ####
+# CA1716: identifiers should not match keywords of other .NET languages (e.g. VB "Error", "Date", "Step").
+# BuildManager is a C#-only application, not a library consumed from other languages,
+# so the rule's rationale does not apply; renaming would make the ubiquitous language worse.
+dotnet_diagnostic.CA1716.severity = none
+
 [tests/**.cs]
 # Test names follow Method_Scenario_ExpectedResult (CONVENTIONS.md).
 dotnet_diagnostic.CA1707.severity = none

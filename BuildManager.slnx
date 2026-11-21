@@ -14,5 +14,6 @@
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/BuildManager.Architecture.Tests/BuildManager.Architecture.Tests.csproj" />
+    <Project Path="tests/BuildManager.Domain.UnitTests/BuildManager.Domain.UnitTests.csproj" />
   </Folder>
 </Solution>
